@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8033F842220E8E1A00DE17E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F841220E8E1A00DE17E4 /* main.m */; };
+		8033F84F220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F84E220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m */; };
+		8033F855220E8F4F00DE17E4 /* BackwardsPrime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +27,21 @@
 /* Begin PBXFileReference section */
 		8033F83E220E8E1A00DE17E4 /* CodeWarsObj-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodeWarsObj-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F841220E8E1A00DE17E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8033F84C220E8F3A00DE17E4 /* CodeWarsObjUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsObjUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8033F84E220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeWarsObjUnitTests.m; sourceTree = "<group>"; };
+		8033F850220E8F3A00DE17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackwardsPrime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8033F83B220E8E1A00DE17E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8033F849220E8F3A00DE17E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				8033F840220E8E1A00DE17E4 /* CodeWarsObj-C */,
+				8033F84D220E8F3A00DE17E4 /* CodeWarsObjUnitTests */,
 				8033F83F220E8E1A00DE17E4 /* Products */,
+				8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				8033F83E220E8E1A00DE17E4 /* CodeWarsObj-C */,
+				8033F84C220E8F3A00DE17E4 /* CodeWarsObjUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +76,15 @@
 				8033F841220E8E1A00DE17E4 /* main.m */,
 			);
 			path = "CodeWarsObj-C";
+			sourceTree = "<group>";
+		};
+		8033F84D220E8F3A00DE17E4 /* CodeWarsObjUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8033F84E220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m */,
+				8033F850220E8F3A00DE17E4 /* Info.plist */,
+			);
+			path = CodeWarsObjUnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +107,23 @@
 			productReference = 8033F83E220E8E1A00DE17E4 /* CodeWarsObj-C */;
 			productType = "com.apple.product-type.tool";
 		};
+		8033F84B220E8F3A00DE17E4 /* CodeWarsObjUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8033F851220E8F3A00DE17E4 /* Build configuration list for PBXNativeTarget "CodeWarsObjUnitTests" */;
+			buildPhases = (
+				8033F848220E8F3A00DE17E4 /* Sources */,
+				8033F849220E8F3A00DE17E4 /* Frameworks */,
+				8033F84A220E8F3A00DE17E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeWarsObjUnitTests;
+			productName = CodeWarsObjUnitTests;
+			productReference = 8033F84C220E8F3A00DE17E4 /* CodeWarsObjUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +134,9 @@
 				ORGANIZATIONNAME = "Jinah Adam";
 				TargetAttributes = {
 					8033F83D220E8E1A00DE17E4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8033F84B220E8F3A00DE17E4 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -109,9 +154,20 @@
 			projectRoot = "";
 			targets = (
 				8033F83D220E8E1A00DE17E4 /* CodeWarsObj-C */,
+				8033F84B220E8F3A00DE17E4 /* CodeWarsObjUnitTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8033F84A220E8F3A00DE17E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8033F83A220E8E1A00DE17E4 /* Sources */ = {
@@ -119,6 +175,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8033F842220E8E1A00DE17E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8033F848220E8F3A00DE17E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8033F855220E8F4F00DE17E4 /* BackwardsPrime.m in Sources */,
+				8033F84F220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +319,40 @@
 			};
 			name = Release;
 		};
+		8033F852220E8F3A00DE17E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MWPM7V4LD5;
+				INFOPLIST_FILE = CodeWarsObjUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinahadam.CodeWarsObjUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8033F853220E8F3A00DE17E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MWPM7V4LD5;
+				INFOPLIST_FILE = CodeWarsObjUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinahadam.CodeWarsObjUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -271,6 +370,15 @@
 			buildConfigurations = (
 				8033F846220E8E1A00DE17E4 /* Debug */,
 				8033F847220E8E1A00DE17E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8033F851220E8F3A00DE17E4 /* Build configuration list for PBXNativeTarget "CodeWarsObjUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8033F852220E8F3A00DE17E4 /* Debug */,
+				8033F853220E8F3A00DE17E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
