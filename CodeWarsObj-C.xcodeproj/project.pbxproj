@@ -10,6 +10,7 @@
 		8033F842220E8E1A00DE17E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F841220E8E1A00DE17E4 /* main.m */; };
 		8033F84F220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F84E220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m */; };
 		8033F855220E8F4F00DE17E4 /* BackwardsPrime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */; };
+		803648C72212AF45003CE06E /* SumWithoutMaxMin.m in Sources */ = {isa = PBXBuildFile; fileRef = 803648C62212AF45003CE06E /* SumWithoutMaxMin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		8033F84E220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeWarsObjUnitTests.m; sourceTree = "<group>"; };
 		8033F850220E8F3A00DE17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackwardsPrime.m; sourceTree = "<group>"; };
+		803648C62212AF45003CE06E /* SumWithoutMaxMin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumWithoutMaxMin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,6 @@
 				8033F840220E8E1A00DE17E4 /* CodeWarsObj-C */,
 				8033F84D220E8F3A00DE17E4 /* CodeWarsObjUnitTests */,
 				8033F83F220E8E1A00DE17E4 /* Products */,
-				8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,8 +82,10 @@
 		8033F84D220E8F3A00DE17E4 /* CodeWarsObjUnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */,
 				8033F84E220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m */,
 				8033F850220E8F3A00DE17E4 /* Info.plist */,
+				803648C62212AF45003CE06E /* SumWithoutMaxMin.m */,
 			);
 			path = CodeWarsObjUnitTests;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				8033F855220E8F4F00DE17E4 /* BackwardsPrime.m in Sources */,
 				8033F84F220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m in Sources */,
+				803648C72212AF45003CE06E /* SumWithoutMaxMin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
