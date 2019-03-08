@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8003BE6B22130E1200D35F23 /* StringReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8003BE6A22130E1200D35F23 /* StringReverse.m */; };
 		8033F842220E8E1A00DE17E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F841220E8E1A00DE17E4 /* main.m */; };
 		8033F84F220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F84E220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m */; };
 		8033F855220E8F4F00DE17E4 /* BackwardsPrime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */; };
 		803648C72212AF45003CE06E /* SumWithoutMaxMin.m in Sources */ = {isa = PBXBuildFile; fileRef = 803648C62212AF45003CE06E /* SumWithoutMaxMin.m */; };
+		80D988FF2232745000263F5B /* SpecialNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D988FE2232745000263F5B /* SpecialNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8003BE6A22130E1200D35F23 /* StringReverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringReverse.m; sourceTree = "<group>"; };
 		8033F83E220E8E1A00DE17E4 /* CodeWarsObj-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodeWarsObj-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F841220E8E1A00DE17E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8033F84C220E8F3A00DE17E4 /* CodeWarsObjUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsObjUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +36,7 @@
 		8033F850220E8F3A00DE17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackwardsPrime.m; sourceTree = "<group>"; };
 		803648C62212AF45003CE06E /* SumWithoutMaxMin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumWithoutMaxMin.m; sourceTree = "<group>"; };
+		80D988FE2232745000263F5B /* SpecialNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				8033F84E220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m */,
 				8033F850220E8F3A00DE17E4 /* Info.plist */,
 				803648C62212AF45003CE06E /* SumWithoutMaxMin.m */,
+				8003BE6A22130E1200D35F23 /* StringReverse.m */,
+				80D988FE2232745000263F5B /* SpecialNumber.m */,
 			);
 			path = CodeWarsObjUnitTests;
 			sourceTree = "<group>";
@@ -186,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8033F855220E8F4F00DE17E4 /* BackwardsPrime.m in Sources */,
+				8003BE6B22130E1200D35F23 /* StringReverse.m in Sources */,
+				80D988FF2232745000263F5B /* SpecialNumber.m in Sources */,
 				8033F84F220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m in Sources */,
 				803648C72212AF45003CE06E /* SumWithoutMaxMin.m in Sources */,
 			);
