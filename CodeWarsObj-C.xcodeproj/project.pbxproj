@@ -13,6 +13,7 @@
 		8033F855220E8F4F00DE17E4 /* BackwardsPrime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */; };
 		803648C72212AF45003CE06E /* SumWithoutMaxMin.m in Sources */ = {isa = PBXBuildFile; fileRef = 803648C62212AF45003CE06E /* SumWithoutMaxMin.m */; };
 		80D988FF2232745000263F5B /* SpecialNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D988FE2232745000263F5B /* SpecialNumber.m */; };
+		80D989012233425A00263F5B /* DisariumNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D989002233425A00263F5B /* DisariumNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		8033F854220E8F4F00DE17E4 /* BackwardsPrime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackwardsPrime.m; sourceTree = "<group>"; };
 		803648C62212AF45003CE06E /* SumWithoutMaxMin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumWithoutMaxMin.m; sourceTree = "<group>"; };
 		80D988FE2232745000263F5B /* SpecialNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialNumber.m; sourceTree = "<group>"; };
+		80D989002233425A00263F5B /* DisariumNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisariumNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				803648C62212AF45003CE06E /* SumWithoutMaxMin.m */,
 				8003BE6A22130E1200D35F23 /* StringReverse.m */,
 				80D988FE2232745000263F5B /* SpecialNumber.m */,
+				80D989002233425A00263F5B /* DisariumNumber.m */,
 			);
 			path = CodeWarsObjUnitTests;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				8033F855220E8F4F00DE17E4 /* BackwardsPrime.m in Sources */,
 				8003BE6B22130E1200D35F23 /* StringReverse.m in Sources */,
+				80D989012233425A00263F5B /* DisariumNumber.m in Sources */,
 				80D988FF2232745000263F5B /* SpecialNumber.m in Sources */,
 				8033F84F220E8F3A00DE17E4 /* CodeWarsObjUnitTests.m in Sources */,
 				803648C72212AF45003CE06E /* SumWithoutMaxMin.m in Sources */,
