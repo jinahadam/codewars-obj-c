@@ -14,24 +14,29 @@
 
 @implementation PhoneCall
 
-- (void)setUp {
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+int phoneCall(int min1, int min2_10, int min11, int s) {
+    if (s < min1) {
+        return s/min1;
+    }
+    if (s < (min2_10 * 9) + min1) {
+        int k = s - min1;
+        return 1 + (k/min2_10);
+    }
+    int k = s - min1;
+    int j = k - (min2_10 * 9);
+    return 10 + (j/min11);
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+- (void) testsExamples
+{
+    XCTAssertEqual(9, phoneCall(9, 8, 6, 78));
+    XCTAssertEqual(14, phoneCall(3, 1, 2, 20));
+    XCTAssertEqual(1, phoneCall(2, 2, 1, 2));
+    XCTAssertEqual(11, phoneCall(10, 1, 2, 22));
+    XCTAssertEqual(14, phoneCall(2, 2, 1, 24));
+    XCTAssertEqual(3, phoneCall(1, 2, 1, 6));
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
 
 @end
